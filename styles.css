@@ -1,0 +1,109 @@
+/*
+  Evelyn Salas
+
+  This is the style sheet accompanying the the get to know me page
+*/
+
+body {
+  font-family: "Helvetica", sans-serif;
+  width: 80%;
+  background-image: url("img/background.jpeg");
+  background-attachment: fixed;
+  color: white;
+}
+
+body, img, .link {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  -webkit-text-stroke-width: 2px;
+}
+
+h1, h2, h3, p, ul, ol {
+  -webkit-text-stroke-color: antiquewhite;
+}
+
+p {
+  font-size: 20px;
+}
+
+p, ol, ul {
+  -webkit-text-stroke-width: 1px;
+}
+
+h2 {
+  margin-left: 20%;
+  font-size: 45px;
+}
+
+h2, h3 {
+  margin-top: 10%;
+}
+
+.icon img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid antiquewhite;
+  margin-right: 20px;
+}
+
+.header {
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.header, #gallery, article {
+  display: flex;
+}
+
+#gallery {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+ul, ol {
+  font-size: 25px;
+  margin-left: 25%;
+}
+
+ul, ol, .link {
+  margin-bottom: 20%;
+}
+
+.pet p, h3 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+img, .link {
+  width: 50%;
+}
+
+img {
+  width: 600px;
+  display: block;
+  margin-top: 5%;
+  border-radius: 15%;
+}
+
+.link {
+  font-size: 15px;
+}
+
+article {
+  background-color: antiquewhite;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 15%;
+}

@@ -1,0 +1,62 @@
+/*
+  Evelyn Salas
+
+  This is the style sheet accompanying the page for my pet bird.
+
+*/
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25%;
+  font-size: 60px;
+}
+
+p, h2 {
+  text-align: center;
+}
+
+img {
+  max-height: 500px;
+  max-width: fit-content;
+}
+
+h2 {
+  margin-top: 30%;
+}
+
+h2, .header p, .header ol {
+  margin-left: 0%;
+}
+
+.header p {
+  font-size: 23px;
+}
+
+.header p, .header ol {
+  text-align: left;
+  width: 100%;
+}
+
+section p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+section p, #gallery {
+  margin-bottom: 20%;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#gallery img {
+  width: 300px;
+}
+
+footer {
+  margin-bottom: 15%;
+}
